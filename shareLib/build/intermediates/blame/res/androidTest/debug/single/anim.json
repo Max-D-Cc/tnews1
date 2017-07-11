@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/anim/bj_slide_in_from_top.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/anim/bj_slide_in_from_top.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/anim/bj_slide_out_to_top.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/anim/bj_slide_out_to_top.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/anim/bj_slide_in_from_bottom.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/anim/bj_slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/anim/bj_slide_out_to_bottom.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/anim/bj_slide_out_to_bottom.xml"
+    }
+]

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    tools:context="com.dophin.weichat_article.home.fragment.NewsFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/news_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/newstv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

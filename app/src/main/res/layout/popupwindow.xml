@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dip"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <Button
+            android:id="@+id/pz"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/selector_popup"
+            android:text="拍照"
+            android:textColor="#00b9f5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_popup"
+            android:text="从相册选取"
+            android:textColor="#00b9f5"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/cancleButton"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/selector_popup"
+            android:text="取消"
+            android:textColor="#00b9f5"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

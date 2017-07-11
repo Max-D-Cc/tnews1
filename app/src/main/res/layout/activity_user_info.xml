@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    tools:context="com.dophin.weichat_article.mine.activity.UserInfoActivity">
+
+
+    <include  layout="@layout/include_titlebar"/>
+
+    <RelativeLayout
+        android:id="@+id/update_img"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_height="80dp">
+
+        <com.dophin.weichat_article.widget.CircleImageView
+            android:id="@+id/ui_photo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@mipmap/denglutouxiang"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            />
+
+
+        <TextView
+            android:layout_toLeftOf="@+id/ui_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="修改头像"
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ui_img1"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="ID"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/ui_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/update_name"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="0.8dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="昵称"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/ui_name"
+            android:layout_toLeftOf="@+id/ui_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ui_img3"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/update_phone"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="手机号"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/ui_phone"
+            android:layout_toLeftOf="@+id/ui_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ui_img4"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/update_qq"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="0.8dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="QQ"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/ui_qq"
+            android:layout_toLeftOf="@+id/ui_img6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ui_img6"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/update_zfb"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="0.8dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="支付宝账号"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/ui_zfb"
+            android:layout_toLeftOf="@+id/ui_img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ui_img5"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/update_zfbname"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="0.8dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="支付宝实名"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/ui_zfbname"
+            android:layout_toLeftOf="@+id/ui_img7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text=""
+            android:textColor="@color/textgray"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/ui_img7"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/update_pwd"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:text="修改密码"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/ui_img8"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/jin"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bind_wx"
+    android:background="@color/app_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dophin.weichat_article.mine.activity.BindWxActivity">
+    <include layout="@layout/include_titlebar"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_grayno"
+        android:layout_marginTop="20dp"
+        android:padding="0.7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:background="@drawable/round_white"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/bwx_tel"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:paddingLeft="15dp"
+                android:textSize="15sp"
+                android:maxLength="11"
+                android:textColorHint="#66000000"
+                android:gravity="center_vertical"
+                android:hint="请输入手机号"
+                android:inputType="number"
+                android:background="@color/white"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:background="#bbb1b1b1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/bwx_code"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="45dp"
+                    android:paddingLeft="15dp"
+                    android:textSize="15sp"
+                    android:maxLength="6"
+                    android:textColorHint="#66000000"
+                    android:gravity="center_vertical"
+                    android:hint="请输入验证码"
+                    android:inputType="number"
+                    android:background="@color/white"
+                    />
+
+                <View
+                    android:layout_width="0.7dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="#bbb1b1b1" />
+
+
+                <TextView
+                    android:id="@+id/bwx_sendcode"
+                    android:textSize="15sp"
+                    android:paddingRight="15dp"
+                    android:gravity="center"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/appcolor"
+                    android:text="获取验证码"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bwx_ok"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="开始绑定"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_grayno"
+        android:layout_height="40dp" />
+
+</LinearLayout>

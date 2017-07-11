@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_download_noti1.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_download_noti1.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_error.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_error.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_title_bar_2btn.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_title_bar_2btn.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_pull_to_refresh_header_vertical.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_zqb_webview.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_zqb_webview.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_dialog_progress.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_share_dialog.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_share_dialog.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_dialog_share_buttom.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_dialog_share_buttom.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_share_webview.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_share_webview.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_browser_alert.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_browser_alert.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_sharelistview.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_sharelistview.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_share_item.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_share_item.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_share_gridview_item.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_share_gridview_item.xml"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/layout/bj_pull_to_refresh_footer_vertical.xml",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/layout/bj_pull_to_refresh_footer_vertical.xml"
+    }
+]

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_qr_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dophin.weichat_article.mine.activity.QrCodeActivity">
+    <include layout="@layout/include_titlebar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/qrcode_xh"
+        android:layout_marginTop="47dp">
+
+        <ImageView
+            android:id="@+id/qrcode_img"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/qrcode_img"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/textblack"
+            android:text="立即扫码领取红包"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

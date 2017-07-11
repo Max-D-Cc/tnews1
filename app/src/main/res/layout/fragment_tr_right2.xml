@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    tools:context="com.dophin.weichat_article.mine.fragment.TrRightFragment">
+
+
+    <TextView
+        android:layout_marginTop="1dp"
+        android:id="@+id/trr_exp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:text="累计获得经验：60000"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/trr_rv"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/round_white"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

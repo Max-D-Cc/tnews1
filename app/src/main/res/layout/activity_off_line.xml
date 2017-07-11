@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_off_line"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context="com.dophin.weichat_article.mine.activity.OffLineActivity">
+    <RelativeLayout
+        android:id="@+id/ol_one"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="5dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/ol_img1"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ol1"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一级学徒"
+            android:textSize="15sp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ol_img1"
+            android:textColor="@color/textblack"
+            />
+        
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:text="查看"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_red"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ol_two"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <ImageView
+            android:id="@+id/ol_img2"
+            android:src="@mipmap/ol2"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二级学徒"
+            android:textSize="15sp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/ol_img2"
+            android:textColor="@color/textblack"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="22dp"
+            android:text="查看"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_red"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_code"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context="com.dophin.weichat_article.mine.activity.CodeActivity">
+    <include layout="@layout/include_titlebar" />
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textblack"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:textSize="15sp"
+        android:paddingLeft="15dp"
+        android:text="悦目精选，分成最高的赚钱软件\n邀请朋友一起玩悦目精选，他做任务你享受100%分享分成，你的朋友在邀请别人你同样享受50%的次级分成，你无需做任务，简单邀请就可享受100%任务奖励"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/yqm_bg"
+        >
+
+        <TextView
+            android:id="@+id/code_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="88888888"
+            android:textStyle="bold"
+            android:textColor="@color/appcolor"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/code_bt"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="邀请好友"
+        android:textColor="@color/white"
+        android:layout_marginRight="60dp"
+        android:layout_height="35dp"
+        android:background="@drawable/round_red"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bj_indicator_arrow.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bj_indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bj_default_ptr_rotate.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bj_default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/bj_default_ptr_flip.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/bj_default_ptr_flip.png"
+    }
+]

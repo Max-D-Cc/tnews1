@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_close_normal.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_close_normal.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_default_ptr_rotate.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_default_ptr_flip.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_error.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_error.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_close_press.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_close_press.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_indicator_arrow.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/bj_menu_refresh.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/bj_menu_refresh.png"
+    }
+]

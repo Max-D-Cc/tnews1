@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/item_income_name"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="星币兑换现金"
+        android:textColor="@color/textblack"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/item_income_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-1000星币"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/appcolor"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        />
+
+    <TextView
+        android:id="@+id/item_income_time"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/item_income_money"
+        android:layout_height="wrap_content"
+        android:text="2017-03-05 15:00"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/textgray"
+        android:layout_marginRight="15dp"
+        />
+
+</RelativeLayout>

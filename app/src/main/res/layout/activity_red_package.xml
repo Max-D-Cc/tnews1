@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_red_package"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dophin.weichat_article.mine.activity.RedPackageActivity">
+
+    <include  layout="@layout/include_titlebar"/>
+    <RelativeLayout
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/beijing"
+        >
+
+        <ImageView
+            android:id="@+id/rp_open"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/anniu"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            />
+
+        <TextView
+            android:id="@+id/rp_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ddbd84"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="距离下次拆红包时间：59分59秒"
+            android:layout_below="@+id/rp_open"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="恭喜发财 大吉大利"
+            android:textColor="#ddbd84"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/rp_open"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

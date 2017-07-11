@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/toast_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:paddingTop="8dp"
+        android:text="我是吐司"
+        android:paddingBottom="8dp"
+        android:background="@drawable/round_black"/>
+
+</LinearLayout>

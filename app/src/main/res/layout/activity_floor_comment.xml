@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_floor_comment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    tools:context="com.dophin.weichat_article.home.activity.FloorCommentActivity">
+    <include layout="@layout/include_titlebar"/>
+
+    <RelativeLayout
+        android:id="@+id/floor_rl"
+        android:layout_marginTop="49dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <com.dophin.weichat_article.widget.CircleImageView
+            android:id="@+id/floor_img"
+            android:layout_width="40dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/denglutouxiang"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="15dp"
+            android:layout_height="40dp" />
+
+
+        <TextView
+            android:id="@+id/floor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/appcolor"
+            android:text="测试名字"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/floor_img"
+            />
+
+
+        <TextView
+            android:id="@+id/floor_content"
+            android:layout_below="@+id/floor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textblack"
+            android:layout_marginRight="20dp"
+            android:text="测试名字"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/floor_img"
+            />
+
+
+        <RelativeLayout
+            android:visibility="visible"
+            android:id="@+id/floor_zan"
+            android:layout_width="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/floor_zan_img"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/huifudianzan"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+
+                android:id="@+id/floor_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textgray"
+                android:singleLine="true"
+                android:text="0000"
+                android:textSize="13sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/floor_zan_img"
+                android:layout_toEndOf="@+id/floor_zan_img" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/floor_time"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/floor_content"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textgray"
+            android:textSize="12sp"
+            android:paddingBottom="5dp"
+            android:text="3-18 15:32:15  15条回复>"
+            android:layout_toRightOf="@+id/floor_img"
+            />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/floor_lalal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/floor_rl"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textblack"
+        android:text="用户评论"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/floor_rv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/floor_lalal"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        >
+        <EditText
+            android:id="@+id/floor_comment"
+            android:layout_toLeftOf="@+id/floor_send"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@color/textblack"
+            android:hint="写评论"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/article_comment_borad"/>
+
+
+        <TextView
+            android:id="@+id/floor_send"
+            android:layout_width="50dp"
+            android:text="发送"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_red"
+            android:layout_height="25dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

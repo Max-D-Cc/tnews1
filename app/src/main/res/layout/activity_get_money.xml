@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_get_money"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.dophin.weichat_article.mine.activity.GetMoneyActivity">
+
+    <include layout="@layout/include_titlebar"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textblack"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:text="如何赚钱"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textblack"
+        android:text="《悦目精选》是一款阅读咨询类软件，为了回馈用户，我们设置了“星币”激励功能，每当产生一次有效阅读，可以收到10星币的激励"
+        />
+
+    <TextView
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textblack"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:text="如何才能获得更多“星币”?"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textblack"
+        android:text="一、帮助我们推广新的用户，是获取“星币”最有效的途径。一级学徒阅读文章，你可以获得和他相同数量的“星币”。二级学徒（即徒孙）阅读文章，你可以获得他一半的数量的“星币”。"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textblack"
+        android:text="二、经验宝箱。你使用《悦目精选》时，会累积经验，达到要求，就可以打开对应的宝箱，里面有大量的“星币”。"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textblack"
+        android:text="三、拆红包。每天都可以拆红包，随机获得不等数量的“星币”。"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/textblack"
+        android:text="四、趣味猜。简单刺激的小游戏，让回馈来得更猛烈。"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/appcolor"
+        android:text="注：为了防止恶意刷“星币”的行为，“星币”获取有一定的随机性。"
+        />
+
+
+</LinearLayout>

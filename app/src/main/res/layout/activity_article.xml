@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_article"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context="com.dophin.weichat_article.home.activity.ArticleActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="48dp">
+        <ImageView
+            android:id="@+id/article_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/fanhui"
+            />
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/textblack"
+            android:text="金正男的死因"
+
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginTop="48dp"
+        android:visibility="gone"
+        android:background="@color/appcolor"
+        android:progressDrawable="@drawable/progressbar_color"
+        android:id="@+id/article_pb"
+        android:layout_height="2dp"
+        android:layout_width="match_parent"
+        />
+
+    <com.dophin.weichat_article.widget.ArticleScrollView
+        android:id="@+id/article_sv"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <WebView
+                android:id="@+id/article_web"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content"></WebView>
+
+            <LinearLayout
+                android:id="@+id/article_rl"
+                android:layout_below="@+id/article_web"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/article_up"
+                    android:layout_width="wrap_content"
+                    android:text="5441"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="5dp"
+                    android:layout_marginRight="60dp"
+                    android:drawableLeft="@mipmap/wenzhangxihuan"
+                    android:background="@drawable/article_line_gray"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/article_down"
+                    android:layout_width="wrap_content"
+                    android:text="5441"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@mipmap/wenzhangbuxihuan"
+                    android:background="@drawable/article_line_gray"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <View
+                android:id="@+id/article_view"
+                android:layout_below="@+id/article_rl"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:background="@color/app_bg"
+                />
+            <TextView
+                android:id="@+id/article_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评论回复："
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/article_view"
+                />
+
+            <com.dophin.weichat_article.widget.WrapHeightListView
+                android:id="@+id/article_lv"
+                android:layout_below="@+id/article_tv"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.dophin.weichat_article.widget.WrapHeightListView>
+        </RelativeLayout>
+
+    </com.dophin.weichat_article.widget.ArticleScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_height="0.8dp"
+        android:background="@color/app_bg"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/article_et_comment"
+            android:layout_toLeftOf="@+id/article_comment"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="@color/textblack"
+            android:hint="写评论"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/article_comment_borad"/>
+
+
+        <ImageView
+            android:id="@+id/article_share"
+            android:layout_alignParentRight="true"
+            android:padding="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/fenxiang"/>
+        <ImageView
+            android:id="@+id/article_collect"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:layout_toLeftOf="@+id/article_share"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/shoucang"/>
+        <RelativeLayout
+            android:id="@+id/article_comment"
+            android:layout_width="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/article_collect"
+            android:layout_height="50dp">
+            <ImageView
+                android:padding="8dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pinglun"/>
+            <TextView
+                android:id="@+id/article_comnum"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:text="500"
+                android:visibility="invisible"
+                android:gravity="center_vertical"
+                android:textSize="9sp"
+                android:background="@drawable/article_comment_mum_bg"
+                android:layout_marginTop="10dp"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/article_send"
+            android:layout_width="50dp"
+            android:text="发送"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_red"
+            android:layout_height="25dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/article_ad"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"></LinearLayout>
+
+
+</RelativeLayout>

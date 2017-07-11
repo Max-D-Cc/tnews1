@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_more_icon_qa_pressed.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_more_icon_qa_pressed.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_titlebar_btn_back_new.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_titlebar_btn_back_new.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_wechat_timeline.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_wechat_timeline.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_icon_share_red_button.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_icon_share_red_button.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_qzone.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_qzone.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_qq.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_qq.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_more_icon_qa_normal.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_more_icon_qa_normal.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_sinaweibo.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_sinaweibo.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_more.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_more.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_wechat_friends.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_wechat_friends.png"
+    },
+    {
+        "merged": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/bj_share_platform_clipboard.png",
+        "source": "/Users/caiguoqing/AndroidStudioProjects/tnews/shareLib/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/bj_share_platform_clipboard.png"
+    }
+]

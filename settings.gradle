@@ -1,0 +1,3 @@
+include ':app', ':multi-image-selector'
+include ':vjlibrary'
+include ':shareLib'

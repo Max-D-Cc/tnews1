@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set"
+    android:background="@color/app_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dophin.weichat_article.mine.activity.SetActivity">
+    <include  layout="@layout/include_titlebar"/>
+
+    <RelativeLayout
+
+        android:id="@+id/set_user"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户绑定设置"
+            android:textSize="16sp"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去提现"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/jin"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/set_version"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/set_user"
+        android:background="@color/white"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本信息"
+            android:textSize="16sp"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/jin"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/set_kf"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/set_version"
+        android:background="@color/white"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客服QQ"
+            android:textSize="16sp"
+            android:textColor="@color/textblack"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:text="1152553223"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+    
+    <TextView
+        android:id="@+id/set_loginout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:text="退出登录"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:background="@color/appcolor"/>
+    
+</RelativeLayout>

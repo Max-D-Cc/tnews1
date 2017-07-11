@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.dophin.weichat_article.mine.fragment.CodeLeftFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/student_bg"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/textblack"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="快让家人、朋友、同事 \n 一起来阅读，每天坐等收星币，\n1级学徒提成100%，2级学徒提成50%"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/code_mycode"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:textColor="@color/white"
+        android:text="我的邀请码:00000000"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:background="@drawable/round_red"
+        />
+
+    <TextView
+        android:id="@+id/code_qrcode"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:textColor="@color/white"
+        android:text="我的二维码"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/round_red"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/code_cricle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/pengyouquan"
+        android:text="朋友圈"
+        android:gravity="center"
+            android:textSize="12sp"
+        android:textColor="@color/textblack"
+        android:drawablePadding="8dp"
+        />
+        <TextView
+            android:id="@+id/code_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/weixin_code"
+            android:text="微信"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/textblack"
+            android:drawablePadding="8dp"
+            />
+        <TextView
+            android:id="@+id/code_qq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/qq"
+            android:text="QQ"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/textblack"
+            android:drawablePadding="8dp"
+            />
+        <TextView
+            android:id="@+id/code_qzone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawableTop="@mipmap/qqkongjian"
+            android:text="QQ空间"
+            android:gravity="center"
+            android:textColor="@color/textblack"
+            android:drawablePadding="8dp"
+            />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

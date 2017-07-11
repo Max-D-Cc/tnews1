@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@mipmap/share_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/share_xy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/share_xy" />
+
+    <RelativeLayout
+        android:id="@+id/share_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/share_xy"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_white">
+
+        <TextView
+            android:id="@+id/share_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="30dp"
+            android:text="程小毛"
+            android:textColor="@color/textblack"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/share_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:text="ID：888888"
+            android:textColor="@color/textblack"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/share_id"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="抢到"
+                android:textColor="@color/textblack"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/share_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="8.88"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/appcolor"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/share_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="星币（可兑换现金）"
+                android:textColor="@color/textblack"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.dophin.weichat_article.widget.CircleImageView
+        android:id="@+id/share_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_toRightOf="@+id/share_xy"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/denglutouxiang"
+        app:border_color="@color/white"
+        app:border_width="3dp" />
+
+    <ImageView
+        android:id="@+id/share_nd"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-20dp"
+        android:src="@mipmap/share_nd"
+        android:layout_below="@+id/share_rl"
+        />
+
+    <ImageView
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/share_out"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/share_nd"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/share_xh"
+        />
+
+    <RelativeLayout
+        android:id="@+id/share_out"
+        android:layout_width="wrap_content"
+        android:background="@drawable/round_white"
+        android:padding="3dp"
+        android:layout_marginTop="95dp"
+        android:layout_below="@+id/share_rl"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/share_code"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+    </RelativeLayout>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@+id/share_out"
+        android:background="#00000000"
+        />
+    </RelativeLayout>
+
+</LinearLayout>

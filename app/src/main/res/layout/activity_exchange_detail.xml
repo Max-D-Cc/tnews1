@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_exchange_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    tools:context="com.dophin.weichat_article.mine.activity.ExchangeDetailActivity">
+
+    <include layout="@layout/include_titlebar" />
+
+    <TextView
+        android:id="@+id/ed_isZfb"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="支付宝账号需要实名认证。支付宝账号为对应的手机号或邮箱号"
+        android:textColor="@color/textblack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:text="选择兑换金额"
+        android:gravity="center_vertical"
+        android:textColor="@color/textblack" />
+
+    <com.dophin.weichat_article.widget.WrapHeightGridView
+        android:id="@+id/ed_gv"
+        android:scrollbars="none"
+        android:layout_marginTop="1dp"
+        android:numColumns="2"
+        android:horizontalSpacing="0.8dp"
+        android:verticalSpacing="0.8dp"
+        android:background="@drawable/round_gray_exchang"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"></com.dophin.weichat_article.widget.WrapHeightGridView>
+
+    <TextView
+        android:id="@+id/ed_useRich"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textblack"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:text="您可兑换的余额为：60000"
+        />
+    <TextView
+        android:id="@+id/ed_needRich"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textblack"
+        android:paddingLeft="15dp"
+        android:text="请选择兑换金额"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/ed_account"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp"
+            android:textColor="@color/textblack"
+            android:paddingLeft="15dp"
+            android:text="支付宝账号:"
+            android:gravity="bottom"
+            />
+
+        <EditText
+            android:id="@+id/ed_et_account"
+            android:layout_toRightOf="@+id/ed_account"
+            android:background="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/textgray"
+            android:textColorHighlight="@color/textgray"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/ed_account"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/app_bg"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/ed_sureaccount"
+            android:layout_width="wrap_content"
+            android:background="@color/white"
+            android:layout_height="match_parent"
+            android:paddingBottom="5dp"
+            android:textColor="@color/textblack"
+            android:paddingLeft="15dp"
+            android:text="支付宝姓名:"
+            android:gravity="bottom"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:id="@+id/ed_et_sureaccount"
+            android:layout_toRightOf="@+id/ed_sureaccount"
+            android:background="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/textgray"
+            android:textColorHighlight="@color/textgray"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:layout_height="match_parent"
+            />
+        <View
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/ed_sureaccount"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/app_bg"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:paddingTop="15dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp"
+        android:textColor="@color/textblack"
+        android:text="请核对以上信息是否正确"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/ed_submit"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="立即兑换"
+         android:background="@drawable/round_red"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    
+
+</LinearLayout>
